@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    animation-duration: 3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  .flex {
+    display: flex;
+  } 
+  .justify-center {
+    justify-content: center;
+  } 
+  .align-center {
+    align-items: center;
+  }
+  .direction-column {
+    flex-direction: column;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  #top-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0)!important;
+  }
+  
+  #top-navbar a {
+    color: white;
+  }
+  
+  #carouselExampleCaptions {
+    min-height: 100vh;
+  }
+  
+  #carouselExampleCaptions h2,
+  #carouselExampleCaptions p
+  
+  
+  {
+    color: white;
+    z-index: 2;
+  }
+  #carouselExampleCaptions h2{
+      font-size: 48px;
+  }
+  #carouselExampleCaptions p{
+      text-align: center;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      width: 60%;
+      
+  }
+
+  .carousel-caption {
+    z-index: 1;
+  }
+  
+  .carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-item.active {
+    height: 100vh;
+  }
+  
+  .first {
+    background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/2.jpg);
+    background-size: cover;
+  }
+  .second {
+    background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/1.jpg);
+    background-size: cover;
+  }
+  .third {
+    background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/3.jpg);
+    background-size: cover;
+
+  }
+  .btn-primary{
+      background-color: #18d26e;
+    
+      border: none;
+      margin: 10px;
+      padding: 12px 50px;
+      border-radius: 25px;
+      z-index: 1;
+  }
+  .btn-primary:hover{
+    color: #18d26e;
+    background-color: white;
+    transition: 0.5s;
+    border: 0.5px solid black;
+  }
+
+  #top-navbar a:hover {
+    color: #18d26e;
+  }
