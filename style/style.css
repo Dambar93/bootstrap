@@ -3,9 +3,11 @@
     animation-duration: 30s;
     
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
   }
-
+.with{
+  width: 90%;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -14,7 +16,7 @@
     height: 60px;
   
     background-color: rgba(0, 0, 0, 0)!important;
-    
+    padding: 50px 50px;
     
   }
 .show{
@@ -23,6 +25,7 @@
     
     
 }
+
 .show a{
    
     background-color: rgb(255, 255, 255);
@@ -51,12 +54,15 @@
   }
 .navbar-light .navbar-brand {
     color: white;
+    font-size: 34px;
 }
 .navbar-light .navbar-brand:hover {
     color: white;
 }
 
-
+.nav-item{
+  padding: 0px 10px;
+}
   .carousel-caption{
    height: 100vh;
 
