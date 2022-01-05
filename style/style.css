@@ -16,7 +16,7 @@
     height: 60px;
   
     background-color: rgba(0, 0, 0, 0)!important;
-    padding: 50px 50px;
+    padding: 55px 5px;
     
   }
 .show{
@@ -55,24 +55,34 @@
 .navbar-light .navbar-brand {
     color: white;
     font-size: 34px;
+    border-left: 4px solid #18d26e;
+    padding-left: 10px;
 }
 .navbar-light .navbar-brand:hover {
     color: white;
 }
 
 .nav-item{
-  padding: 0px 10px;
+  padding: 0px 8px;
 }
   .carousel-caption{
    height: 100vh;
 
     z-index: 2;
+ 
     
   }
   #carouselExampleCaptions h2{
     font-size: 48px;
 
 }
+
+
+.carousel-item{
+  transition:   .00000005ms;
+  transition-property: opacity;
+}  
+
 
   .carousel-item::after {
     content: '';
@@ -82,10 +92,12 @@
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+
   }
 
   .carousel-item.active {
     height: 100vh;
+
   }
   .first {
     background-image: url(/bootstrap/img/1.jpg);
