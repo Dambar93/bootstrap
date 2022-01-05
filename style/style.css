@@ -2,7 +2,8 @@
     box-sizing: border-box;
     animation-duration: 30s;
     
-    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
   }
 
 .navbar {
@@ -83,15 +84,18 @@
   .first {
     background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/2.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   .second {
     background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/1.jpg);
     background-size: cover;
+    background-position: center;
   }
   .third {
     background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/3.jpg);
     background-size: cover;
+    background-position: center;
 
   }
   #carouselExampleCaptions h2,
