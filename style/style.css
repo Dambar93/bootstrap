@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    animation-duration: 30s;
+   
     
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -8,6 +8,8 @@
 .with{
   width: 90%;
 }
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -78,13 +80,27 @@
 }
 
 
-.carousel-item{
-  transition:   .00000005ms;
-  transition-property: opacity;
-}  
 
+#intro .carousel-item::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
 
-  .carousel-item::after {
+#intro .animate__animated.animate__fadeInUp{
+  --animate-duration: 2s;
+}
+#intro .animate__animated.animate__fadeInDown{
+  --animate-duration: 2s;
+}
+
+#intro  .carousel-item::after {
     content: '';
     position: absolute;
     top: 0;
@@ -94,23 +110,31 @@
     background-color: rgba(0, 0, 0, 0.5);
 
   }
+#intro .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
 
-  .carousel-item.active {
+#intro  .carousel-item.active {
     height: 100vh;
 
   }
-  .first {
+  #intro .first {
     background-image: url(/bootstrap/img/1.jpg);
     background-size: cover;
     background-position: center;
   }
 
-  .second {
+  #intro .second {
     background-image: url(/bootstrap/img/2.jpg);
     background-size: cover;
     background-position: center;
   }
-  .third {
+  #intro .third {
     background-image: url(/bootstrap/img/3.jpg);
     background-size: cover;
     background-position: center;
@@ -132,7 +156,7 @@
     
 }
 
-  .btn-primary{
+#intro .btn-primary{
     background-color: #18d26e;
   
     border: none;
@@ -141,9 +165,42 @@
     border-radius: 25px;
     z-index: 1;
 }
-.btn-primary:hover{
+#intro .btn-primary:hover{
   color: #18d26e;
   background-color: white;
   transition: 0.5s;
   border: 0.5px solid black;
 }
+
+
+
+#intro .carousel-item::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+<!-- carousel item end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
