@@ -9,7 +9,7 @@
   width: 90%;
 }
 
-
+/* navigation bar */
 .navbar {
     position: fixed;
     top: 0;
@@ -79,7 +79,8 @@
 
 }
 
-
+/* nav end*/
+/* carousel intro*/
 
 #intro .carousel-item::before {
   content: '';
@@ -185,7 +186,8 @@
   left: 0;
   bottom: 0;
 }
-<!-- carousel item end -->
+/* carousel intro end*/
+
 
 
 
