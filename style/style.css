@@ -82,18 +82,18 @@
     height: 100vh;
   }
   .first {
-    background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/2.jpg);
+    background-image: url(/bootstrap/img/1.jpg);
     background-size: cover;
     background-position: center;
   }
 
   .second {
-    background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/1.jpg);
+    background-image: url(/bootstrap/img/2.jpg);
     background-size: cover;
     background-position: center;
   }
   .third {
-    background-image: url(https://bootstrapmade.com/demo/templates/BizPage/assets/img/hero-carousel/3.jpg);
+    background-image: url(/bootstrap/img/3.jpg);
     background-size: cover;
     background-position: center;
 
