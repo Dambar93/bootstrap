@@ -11,6 +11,33 @@ body{
 .with{
 width: 90%;
 }
+.p-title  {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  }
+.h-title {
+  margin: 0 0 20px 0;
+  padding: 100px 0 20px 0;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  
+  position: relative;
+
+}
+.h-title:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: calc(50% - 20px);
+  text-align: center;
+}
 
 /* navigation bar */
 .navbar {
@@ -182,7 +209,7 @@ border: 0.5px solid black;
 
 #intro .carousel-item::before {
 content: '';
-background-color: rgba(0, 0, 0, 0.7);
+background-color: rgba(0, 0, 0, 0.5);
 position: absolute;
 height: 100%;
 width: 100%;
@@ -194,3 +221,310 @@ bottom: 0;
 
 
 /* carousel intro end*/
+/*services*/
+#services{
+  background-color: black;
+  color: white;
+  
+  font-weight: 300;
+}
+#services .box{
+  padding: 30px 20px;
+  
+}
+
+#services .box i {
+  color: #18d26e;
+  padding-bottom: 15px;
+}
+#services .box a {
+  
+  color: white;
+  font-size: 18px;
+  margin: 15px 0px;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: none;
+}
+#services .box a:hover {
+  color: #18d26e;
+}
+#services .box p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.box-mid{
+  background: linear-gradient(   0deg, #000000 0%, #242323 50%, #000000 100%);
+}
+/*services end*/
+/*about-us*/
+#about-us{
+  text-align: center;
+  
+
+}
+
+#about-us h4{
+padding-top: 25px;
+
+}
+
+#about-us a{
+  
+ text-decoration: none;
+ color: black;
+ transition: 0.5s;
+ font-size: 20px;
+}
+#about-us a:hover{
+  
+  color: #18d26e;
+ }
+#about-us img{
+  width: 100%;
+ 
+  
+  
+}
+#about-us .icon{
+  position: absolute;
+  left: 40%;
+  bottom: -20px;
+  border: 3px solid white;
+  border-radius: 50px;
+ padding: 10px 10px 10px 9px;
+  background-color: #18d26e;
+  color: white;
+  transition: 0.5s;
+  
+}
+@media (max-width: 991px) {
+  #about-us .icon{
+    
+    left: 46%;
+
+    
+  }
+}
+
+#about-us .box:hover .icon{
+  background-color: white;
+  color: #18d26e;
+  
+  
+}
+#about-us .overlay{
+
+  position: relative;
+
+}
+#about-us .box p {
+  font-size: 14px;
+    text-align: left;
+    padding: 0 20px 20px;
+    font-weight: 300;
+}
+/*service*/
+
+#service{
+  text-align: center;
+  background-color: white;
+  
+}
+
+#service a{
+  text-decoration: none;
+  color: #111111;
+  font-size: 18px;
+  transition: 0.5s;
+
+}
+#service .description{
+  color: #666666;
+  font-size: 16px;
+}
+#service .box{
+  text-align: left;
+  display: flex;
+}
+#service .box:hover a{
+  color: #18d26e;
+}
+#service .icon{
+
+ color: #18d26e;
+ padding: 0px 30px 0px 0px;
+ 
+}
+#service i{
+  width: 40px;
+}
+/*call to action*/
+#action{
+  text-align: center;
+  background-image: url(/img/call-to-action-bg.jpg);
+  color: white;
+  padding: 60px 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#action .btn{
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: rgba(0, 128, 0, 0);
+  padding: 8px 28px;
+  transition: 0.5s;
+}
+#action .btn:hover{
+  border: 2px solid #18d26e;
+  background-color: #18d26e;
+}
+#action p{
+  font-size: 16px;
+  font-weight: 300;
+}
+/*skills*/
+#skills{
+  text-align: center;
+  
+}
+#skills .progress-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  align-items: center;
+}
+#skills .in{
+  padding: 0px 2%;
+}
+#skills .progress{
+  height: 35px;
+  margin: 12px 0px;
+  background-color: rgba(139, 69, 19, 0);
+  
+}
+/* facts */
+#facts .counter-up{
+  font-size: 48px;
+  color: #18d26e;
+}
+#facts p{
+  font-size: 14px;
+  font-weight: 500;
+}
+#facts img{
+  width: 100%;
+  padding-top: 20px;
+}
+/*portfolio*/
+#portfolio #portfolio-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+  background: #18d26e;
+  color: #fff;
+}
+
+#portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+/*our-clients*/
+#our-clients{
+  position: relative;
+  height: 260px;
+}
+#our-clients .pics{
+  display: flex;
+  flex-direction: row;
+  
+}
+#our-clients .carousel-inner{
+  height: 160px;
+}
+#our-clients .indicator{
+  padding-top: 20px;
+  position: absolute;
+  top: 45px;
+  height: 100%;
+ 
+  
+}
+#our-clients .indicator button{
+  width: 10px;
+  height: 10px;
+  border: 2px solid #18d26e;
+  border-radius: 25px;
+ 
+
+}
+#our-clients img{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#our-clients img:hover{
+  opacity: 1;
+}
+/*testimonials*/
+#testimonials{
+  position: relative;
+  text-align: center;
+}
+#testimonials .carousel-item {
+
+
+}
+#testimonials .box{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#testimonials img{
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+
+  
+
+}
+#testimonials .indicator1{
+  padding-top: 20px;
+  position: absolute;
+  top: 245px;
+  height: 100%;
+ 
+  
+}
+#testimonials .indicator1 button{
+  width: 10px;
+  height: 10px;
+  border: 2px solid #18d26e;
+  border-radius: 25px;
+ 
+
+}
+
