@@ -638,3 +638,42 @@ background-color: #0d6335;
 }
 
 /*footer*/
+#footer {
+  background-color: #111111;
+  color: white;
+}
+#footer .description h3{
+  border-left: 3px solid #18d26e;
+  font-size: 34px;
+  font-weight: 900;
+}
+#footer .description p{
+  
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#footer h4{
+  
+  
+  font-weight: 700;
+  font-size: 14px;
+  
+  color: white;
+  padding-bottom: 10px;
+  
+  position: relative;
+  border-bottom: 3px solid #666666;
+
+}
+#footer h4:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #18d26e;
+  bottom: -3px;
+  left: 0;
+  text-align: center;
+}
