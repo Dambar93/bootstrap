@@ -515,7 +515,7 @@ flex-direction: column;
   padding-top: 20px;
   position: absolute;
   top: 245px;
-  height: 100%;
+  height: 20%;
  
   
 }
@@ -527,4 +527,56 @@ flex-direction: column;
  
 
 }
+#testimonials h3{
+  font-size: 20px;
+}
+#testimonials h5{
+  font-size: 14px;
+  color: #666666;
 
+}
+
+#testimonials p{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  color: #666666;
+}
+/*team*/
+
+#team .card{
+  border: none;
+  border-radius: 0;
+}
+#team .card-img-overlay{
+  opacity: 0;
+  transition: 0.5s;
+ 
+}
+
+#team .card-img-overlay p{
+  font-size: 10px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+ 
+}
+#team .card-img-overlay h5{
+  margin-bottom: 5px;
+}
+
+#team .card-img-overlay:hover{
+  background-color: #000000c4;
+  z-index: 1;
+  opacity: 1;
+  padding-top: 35%;
+  
+}
+#team .icons a{
+  color: white;
+  transition: 0.5s;
+}
+#team .icons a:hover{
+
+color: #18d26e;
+}
