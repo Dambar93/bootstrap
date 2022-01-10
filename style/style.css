@@ -580,3 +580,61 @@ flex-direction: column;
 
 color: #18d26e;
 }
+/*contact*/
+
+#contact-us .box{
+  text-align: center;
+  color: #000000;
+
+}
+#contact-us a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+ 
+}
+#contact-us a:hover{
+  color: #18d26e;
+ 
+}
+#contact-us p{
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+#contact-us i{
+  color: #18d26e;
+}
+#contact-us h4{
+  font-size: 18px;
+  color: #999999;
+  font-weight: 900;
+  padding: 13px 0px;
+}
+#contact-us .row{
+  padding-top: 25px;
+}
+#contact-us .btn-primary{
+  background-color: #18d26e;
+  border-radius: none;
+  border: none;
+  margin: 10px;
+  padding: 12px 50px;
+  transition: 0.5s;
+  
+  z-index: 1;
+}
+
+#contact-us .btn-primary:hover{
+color: white;
+background-color: #0d6335;
+
+
+}
+#contact-us .btn {
+  border-radius: none;
+}
+
+/*footer*/
